@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Will to Win</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+  <h1>Will to Win</h1>
+  <p>by: <a href="./images/jhong hilarious.webp" target="_blank">Chimairel Pacaldo BSIT-2B</a></p>
+  <div class="content">
+    <div class="question-box" id="questionBox">Click the button below to start!</div>
+    <div class="options" id="options"></div>
+    <button class="button" id="nextButton" onclick="fetchTrivia()">Start</button>
+    <div id="loadingMessage" class="loading" style="display: none;">Loading trivia, please wait...</div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="sw.js"></script>
+</body>
+</html>
